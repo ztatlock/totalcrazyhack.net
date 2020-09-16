@@ -1,0 +1,51 @@
+html {
+  font-size: 1rem;
+  scroll-behavior: smooth;
+}
+body {
+  padding-top: 4.5rem;
+  padding-bottom: 5rem;
+}
+h1 {
+  font-size: 1.7rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.3rem;
+}
+h4 {
+  font-size: 1.2rem;
+}
+h5 {
+  font-size: 1.1rem;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 992px) {
+  html {
+    font-size: 1.2rem;
+  }
+  .container {
+    max-width: 800px;
+  }
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+.clear {
+  clear: both;
+  margin-bottom: 1rem;
+}
+
+/* shift anchors down to compensate for fixed header */
+.anchor {
+  padding-top: 3.75rem;
+  margin-top: -3.75rem;
+}
