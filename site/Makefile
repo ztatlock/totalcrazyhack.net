@@ -4,8 +4,8 @@ STAGE_PAGES=$(patsubst %.md,stage/%.html,$(PAGES))
 INCLUDE=$(wildcard include/*)
 STAGE_INCLUDE=$(patsubst include/%,stage/%,$(INCLUDE))
 
-THUMB_DIR=$(HOME)/Dropbox/totalcrazyhack.net-thumbs/thumb
-FILES_DIR=$(HOME)/Dropbox/totalcrazyhack.net-files
+THUMB_DIR=$(HOME)/Dropbox/totalcrazyhack.net/thumbs/thumb
+FILES_DIR=$(HOME)/Dropbox/totalcrazyhack.net/files
 
 .PHONY: stage
 stage: $(STAGE_PAGES) $(STAGE_INCLUDE) stage/thumb stage/files
